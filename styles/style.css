@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.5rem; 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}   
+section {
+    /* height: 100vh; */
+    background: #f7ede2;
+    padding-bottom:5rem ;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+
+.bg-image-container1 {
+    background-image: url('https://images.unsplash.com/photo-1505635552518-3448ff116af3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRhcmslMjBiZWF1dGlmdWwlMjBvY2VhbnMlMjBiZXR3ZWVuJTIwbW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+/* typography */
+h2, p, li {
+    color: #f1faee;
+    letter-spacing: .5px;
+}
+.nav-heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.num-list .big-size {
+    font-size: 2rem;
+    margin-left: -1rem;
+}
+
+.title {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.info-main-text {
+    width:65%;
+    font-size: .8rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.info-text {
+    font-size: 1rem;
+}
+ 
+.bottom-line,header {
+    border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+}
+
+.info-link:hover,
+.info-link:focus,
+a:hover,
+a:focus {
+    color:#f1faee;
+}
+
+/* main-navigation */
+.list-item {
+    font-family: 'Happy Monkey';
+    font-weight: 900;
+    font-size: .5rem;
+    list-style: none;
+    margin: 0 .5em;
+    text-transform: uppercase;
+}
+.list-item, .inverse, a{
+    color: rgba(225, 225, 225, 0.5);
+}
+
+li, a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav .nav-items {
+    display: flex;
+    margin-left: 4rem;
+    padding: 0;
+    justify-content: center;
+    
+}
+.underline {
+    margin: 2.7em 0 0 .1em ;
+    width: 4rem;
+    background-color: 1px solid rgba(225, 225, 225, 0.4);
+}
+
+
+/* layout */
+
+header {
+    padding-top: 45px;
+    margin-bottom: 5rem;
+}
+
+.container {
+    width:90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-list li {
+    width: 30%;
+    font-size: 1rem;
+    list-style: none;
+}
+.info-link {
+    font-size: 1rem;
+}
+
+.numlist-container {
+    display: flex;
+}
+.info-text {
+    width: 70%;
+}
+.info-note {
+    display: flex;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+    padding-bottom: 2rem;
+}
+
+/*============== 
+section two 
+==============*/
+.bg-color {
+    background:#14213d;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.sectio-two, .sub-text,
+ .sub-text + p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.sub-text + p {
+    font-size: .5rem ;
+}
+.city-images {
+    display: flex;
+    justify-content: center;
+}
+.text-img, 
+.text-img + p {
+    margin: 0;
+   font-size: .7rem; 
+   text-transform: uppercase;
+   justify-content: center;
+}
+.text-img + p  {
+    font-size: .5rem;
+}
+
+.city {
+    margin: 2rem 1rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10em;
+    padding: .3rem 
+}
+
+.drop {
+    margin-top: 3rem;
+}
+
+.img1 {
+    background: url('https://media.istockphoto.com/photos/the-romantic-couple-standing-in-the-big-hall-with-a-beautiful-night-picture-id1264719405?k=20&m=1264719405&s=612x612&w=0&h=bmbOaIr-Ij31J2c31hg_fQdeo814mrP46FY5q8ekaaM=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.img2 {
+   background: url('https://media.istockphoto.com/photos/sunset-view-of-the-dubai-marina-and-jbr-area-and-the-famous-ferris-picture-id1333035210?b=1&k=20&m=1333035210&s=170667a&w=0&h=5BNARuZK9bTAoDvRCm0net9RDAz57CMTOCYQCySPpOE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background: url('https://media.istockphoto.com/photos/man-and-night-city-picture-id181645674?k=20&m=181645674&s=612x612&w=0&h=cXjIbgDEMhdtnW6IQD5-F87KfqtxpployETuAlIdtik=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4 {
+    background: url('https://media.istockphoto.com/photos/defocused-wide-angle-background-shot-of-colorado-flags-and-string-on-picture-id1328065681?b=1&k=20&m=1328065681&s=170667a&w=0&h=a-oqCEg_c7_MmxJL_Bqpta618pupqzKnDmVblTi5R-c=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section-three */
+.bg-image-container2 {
+    padding: 5rem 0;
+    background: url('https://media.istockphoto.com/photos/beautiful-night-sky-the-milky-way-moon-and-the-trees-picture-id1128515173?k=20&m=1128515173&s=612x612&w=0&h=8j0ulAImCeHU-G6m9FtpMhkL5XvnykXqHzMIQ0naEVg=');
+    background-size: cover;
+    background-position: center;
+}
+.sec-three-container {
+    display: flex;
+}
+.sec-three-img {
+    height: 5rem;
+    object-fit: cover;
+    margin-left: 2rem;
+    border-radius: .5rem;
+}
+.title-sec-three {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.info-main-text{
+    margin: 0;
+    
+}
+
+/* ============
+MEDIA QUREIES
+===============*/
+
+@media (min-width:750px) {
+    .nav-heading {
+        /* font-size: 2rem; */
+    }
+    .list-item {
+        font-size: .7rem ;
+    }
+    .title {
+        font-size:4rem ;
+    }
+    .info-main-text {
+        width: 60%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sub-text {
+        font-size: 2rem;
+    } 
+    .sub-text + p {
+        font-size:1rem ;
+    }
+    .text-img {
+        
+    }
+    .text-img + p {
+        padding: 2px;
+    }
+
+    .title-sec-three {
+        width: 50%;
+        font-size: 3.5rem;
+    }
+
+    .sec-three-img {
+        height: 10rem;
+    }
+
+
+
+}
+
+
+
+
