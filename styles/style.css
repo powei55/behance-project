@@ -57,6 +57,7 @@ h2, p, li {
     font-size: .8rem;
     font-weight: 900;
     letter-spacing: 1px;
+    color: #9b2226;
 }
 
 .info-text-body {
@@ -135,6 +136,8 @@ header {
 
 .numlist-container {
     display: flex;
+
+    
 }
 
 .travel-flex {
@@ -234,8 +237,13 @@ section two
     background-size: cover;
     background-position: center;
 }
-.sec-three-container {
+/* .sec-three-container {
     display: flex;
+    flex-direction: column;
+} */
+.sec-three-images {
+    display: flex;
+    margin-bottom: 1em;
 }
 .sec-three-img {
     height: 5rem;
@@ -302,23 +310,57 @@ MEDIA QUREIES
 }
 
 @media (max-width:536px) {
+    body {
+        text-align: center;
+    }
     header {
         margin-bottom: 2rem;
-        padding-top: 1rem;
+        padding-top: 1em;
     }
-    .tours {
-        padding: .5em 0;
-        /* flex-direction: row; */
-    }
-    .bg-image-container2 {
-        padding: 2rem 0;
-    }
-   .main-nav .nav-items  {
+    .main-nav .nav-items  {
         flex-direction: column;
         margin: 0;
     }
     .list-item {
         padding: .5em 0;
+    }
+    .travel-flex {
+        flex-direction: column;
+    }
+    .info-main-text {
+        padding-bottom: 1rem;
+    }
+
+     .num-list {
+        display: flex;
+        margin: 0;
+     }
+     .num-list li {
+        margin: 0 .5em;
+        font-size: .7rem;
+     }
+     .num-list .big-size {
+        font-size: 1.5rem;
+        margin-left: 1em;
+    }
+    /* section-two */
+    .city-images {
+        flex-direction: column;
+    }
+     .city {
+        height: 7rem;
+        margin: .5em 1em;
+        margin-bottom: 1em;
+    } 
+
+    .tours {
+        padding: .5em 0;
+        /* flex-direction: row; */
+    }
+    /* section-three */
+
+    .bg-image-container2 {
+        padding: 2rem 0;
     }
     
     .info-note-body {
@@ -330,14 +372,22 @@ MEDIA QUREIES
     .sec-three-container {
         flex-direction: column;
         justify-content: center;
-    
+    }
+
+    .title-sec-three {
+        width: 100%;
+        font-size: 3.5rem;
+        padding-bottom: .5em;
+        margin: 0;
     }
     .info-main-text {
         width: 100%;
         margin-bottom: 1em;
     }
+
     .sec-three-img{
-        width: 8rem;
+        width: 7rem;
+        margin: .4em;
     } 
     .sec-three-img, .one {
         margin-bottom: .5em;
